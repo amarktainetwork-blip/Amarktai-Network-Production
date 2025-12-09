@@ -1,0 +1,25 @@
+[Unit]
+Description=Amarktai Network API Server
+After=network.target mongodb.service
+Wants=mongodb.service
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/amarktai/backend
+Environment="PATH=/var/amarktai/backend/.venv/bin"
+EnvironmentFile=/var/amarktai/backend/.env
+ExecStart=/var/amarktai/backend/.venv/bin/uvicorn server:app --host 0.0.0.0 --port 8001 --workers 4
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=amarktai-api
+
+# Resource Limits
+MemoryMax=2G
+CPUQuota=150%
+
+[Install]
+WantedBy=multi-user.target

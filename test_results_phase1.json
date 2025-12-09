@@ -1,0 +1,152 @@
+[
+  {
+    "test": "Authentication",
+    "status": "PASS",
+    "details": "User ID: 70c488b3-f700-468b-b41c-6ecf3aa0a9c0",
+    "timestamp": "2025-12-05T09:43:07.420659"
+  },
+  {
+    "test": "Risk Management Engine Status",
+    "status": "WARN",
+    "details": "Risk management not explicitly found in health check",
+    "timestamp": "2025-12-05T09:43:07.453017"
+  },
+  {
+    "test": "Bot Risk Parameters",
+    "status": "WARN",
+    "details": "No bots found to test risk parameters",
+    "timestamp": "2025-12-05T09:43:07.463775"
+  },
+  {
+    "test": "Exchange LUNO Bot Creation",
+    "status": "PASS",
+    "details": "Bot created on luno",
+    "timestamp": "2025-12-05T09:43:07.523462"
+  },
+  {
+    "test": "Exchange BINANCE Bot Creation",
+    "status": "PASS",
+    "details": "Bot created on binance",
+    "timestamp": "2025-12-05T09:43:07.584436"
+  },
+  {
+    "test": "Exchange KUCOIN Bot Creation",
+    "status": "PASS",
+    "details": "Bot created on kucoin",
+    "timestamp": "2025-12-05T09:43:07.688345"
+  },
+  {
+    "test": "Exchange KRAKEN Bot Creation",
+    "status": "PASS",
+    "details": "Bot created on kraken",
+    "timestamp": "2025-12-05T09:43:07.755968"
+  },
+  {
+    "test": "Exchange VALR Bot Creation",
+    "status": "PASS",
+    "details": "Bot created on valr",
+    "timestamp": "2025-12-05T09:43:07.819112"
+  },
+  {
+    "test": "Fetch.ai API Key Configuration",
+    "status": "WARN",
+    "details": "No Fetch.ai key found in user keys",
+    "timestamp": "2025-12-05T09:43:07.881235"
+  },
+  {
+    "test": "Fetch.ai Connection Test",
+    "status": "WARN",
+    "details": "No API key found for testing",
+    "timestamp": "2025-12-05T09:43:07.889309"
+  },
+  {
+    "test": "Fetch.ai Endpoint /fetchai/signals/BTC-USD",
+    "status": "WARN",
+    "details": "Endpoint not found",
+    "timestamp": "2025-12-05T09:43:07.936932"
+  },
+  {
+    "test": "Fetch.ai Endpoint /fetchai/signals",
+    "status": "WARN",
+    "details": "Endpoint not found",
+    "timestamp": "2025-12-05T09:43:07.983938"
+  },
+  {
+    "test": "Fetch.ai Endpoint /fetchai/test-connection",
+    "status": "WARN",
+    "details": "Endpoint not found",
+    "timestamp": "2025-12-05T09:43:07.990143"
+  },
+  {
+    "test": "FLOKx API Key Configuration",
+    "status": "WARN",
+    "details": "No FLOKx key found in user keys",
+    "timestamp": "2025-12-05T09:43:08.040179"
+  },
+  {
+    "test": "FLOKx Connection Test",
+    "status": "WARN",
+    "details": "No API key found for testing",
+    "timestamp": "2025-12-05T09:43:08.089998"
+  },
+  {
+    "test": "FLOKx Endpoint /flokx/coefficients/BTC-USD",
+    "status": "PASS",
+    "details": "Coefficient data structure found",
+    "timestamp": "2025-12-05T09:43:08.206916"
+  },
+  {
+    "test": "FLOKx Endpoint /flokx/coefficients/BTC-ZAR",
+    "status": "PASS",
+    "details": "Coefficient data structure found",
+    "timestamp": "2025-12-05T09:43:08.216902"
+  },
+  {
+    "test": "FLOKx Endpoint /flokx/alerts",
+    "status": "WARN",
+    "details": "Response structure unclear",
+    "timestamp": "2025-12-05T09:43:08.270063"
+  },
+  {
+    "test": "FLOKx Endpoint /flokx/create-alert",
+    "status": "FAIL",
+    "details": "Status 500",
+    "timestamp": "2025-12-05T09:43:08.311549"
+  },
+  {
+    "test": "Bot Listing",
+    "status": "PASS",
+    "details": "Found 0 bots",
+    "timestamp": "2025-12-05T09:43:08.324524"
+  },
+  {
+    "test": "Overview Endpoint",
+    "status": "PASS",
+    "details": "Active bots: 0, Profit: R0",
+    "timestamp": "2025-12-05T09:43:08.334808"
+  },
+  {
+    "test": "Autonomous Engines",
+    "status": "PASS",
+    "details": "0 services operational",
+    "timestamp": "2025-12-05T09:43:08.351453"
+  },
+  {
+    "test": "System Stats",
+    "status": "PASS",
+    "details": "System statistics accessible",
+    "timestamp": "2025-12-05T09:43:09.407883"
+  },
+  {
+    "test": "Live Prices",
+    "status": "PASS",
+    "details": "BTC/ZAR: R1559607.0",
+    "timestamp": "2025-12-05T09:43:12.069500"
+  },
+  {
+    "test": "AI Integration in Trades",
+    "status": "WARN",
+    "details": "No recent trades found to analyze",
+    "timestamp": "2025-12-05T09:43:12.079927"
+  }
+]
